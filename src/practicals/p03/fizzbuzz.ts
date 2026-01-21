@@ -1,4 +1,5 @@
 // Write your code below
+export{}
 let input = +process.argv[2];
 
 if (process.argv[2] === "") {
