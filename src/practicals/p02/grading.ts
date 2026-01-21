@@ -3,15 +3,9 @@ const score = +process.argv[2]
 
 if (isNaN(score)) {
     console.log ('Invalid input');
-    process.exit()
-}
-
-if (score > 100 || score < 0) {
+}else if (score > 100 || score < 0) {
     console.log ('Invalid input');
-    process.exit()
-}
-
-if (score >= 80 ) {
+}else if (score >= 80 ) {
     console.log('A');
 }else if (score >= 70) {
     console.log('B');
