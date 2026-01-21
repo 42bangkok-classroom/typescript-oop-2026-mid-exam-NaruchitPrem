@@ -14,6 +14,6 @@ if (process.argv[2] === "") {
     }else if (i % 7 === 0){
       console.log('Buzz');
     }else if (!(i % 3 === 0 || i % 7 === 0)){
-      console.log(`${i}`);
+      console.log(i);
     }
   }
