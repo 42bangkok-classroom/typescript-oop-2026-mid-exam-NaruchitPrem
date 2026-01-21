@@ -8,8 +8,9 @@ export function shortenComment(comment: string): string {
 
   for (let i = 0; i < words.length; i++) {
     const word = words[i];
+    const str = word.length;
 
-    if (word.length >= 5) {
+    if (str >= 5 && str <= 10) {
       result += word + " ";
     }
   }
