@@ -3,9 +3,7 @@ export{}
 let input = +process.argv[2];
 
 if (process.argv[2] === "") {
-  console.log('Invalid Input');
 }else if (Number.isNaN(input) || input <= 0) {
-    console.log('Invalid Input');
 }else for (let i = 1; i <= input; i++){
     if (i % 5 === 0 && i % 3 === 0){
       console.log('FizzBuzz');
